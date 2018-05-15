@@ -1,0 +1,6 @@
+framework module Pods_HBK_Charts {
+  umbrella header "Pods-HBK_Charts-umbrella.h"
+
+  export *
+  module * { export * }
+}

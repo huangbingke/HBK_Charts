@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FFD3F6020A4591B003E0FE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD3F5F20A4591B003E0FE7 /* AppDelegate.m */; };
+		0FFD3F6620A4591B003E0FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD3F6420A4591B003E0FE7 /* Main.storyboard */; };
+		0FFD3F6820A4591D003E0FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD3F6720A4591D003E0FE7 /* Assets.xcassets */; };
+		0FFD3F6B20A4591D003E0FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD3F6920A4591D003E0FE7 /* LaunchScreen.storyboard */; };
+		0FFD3F6E20A4591D003E0FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD3F6D20A4591D003E0FE7 /* main.m */; };
+		0FFD3F7B20A45F2B003E0FE7 /* HBK_BarChartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD3F7A20A45F2B003E0FE7 /* HBK_BarChartsViewController.m */; };
+		0FFD3F8020A46172003E0FE7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD3F7F20A46172003E0FE7 /* RootViewController.m */; };
+		72E18BAD0DD85A802B5C2B35 /* Pods_HBK_Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5599882BED634ACEA020E63 /* Pods_HBK_Charts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FFD3F5B20A4591B003E0FE7 /* HBK_Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBK_Charts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FFD3F5E20A4591B003E0FE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FFD3F5F20A4591B003E0FE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FFD3F6520A4591B003E0FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FFD3F6720A4591D003E0FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FFD3F6A20A4591D003E0FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FFD3F6C20A4591D003E0FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FFD3F6D20A4591D003E0FE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FFD3F7920A45F2B003E0FE7 /* HBK_BarChartsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBK_BarChartsViewController.h; sourceTree = "<group>"; };
+		0FFD3F7A20A45F2B003E0FE7 /* HBK_BarChartsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBK_BarChartsViewController.m; sourceTree = "<group>"; };
+		0FFD3F7C20A45F84003E0FE7 /* DefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		0FFD3F7D20A45F84003E0FE7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0FFD3F7E20A46172003E0FE7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0FFD3F7F20A46172003E0FE7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		68C96A90E26351D2401FB405 /* Pods-HBK_Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBK_Charts.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBK_Charts/Pods-HBK_Charts.release.xcconfig"; sourceTree = "<group>"; };
+		755C7B1903143B0F2C92A74D /* Pods-HBK_Charts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBK_Charts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBK_Charts/Pods-HBK_Charts.debug.xcconfig"; sourceTree = "<group>"; };
+		F5599882BED634ACEA020E63 /* Pods_HBK_Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBK_Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FFD3F5820A4591B003E0FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E18BAD0DD85A802B5C2B35 /* Pods_HBK_Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFD3F5220A4591B003E0FE7 = {
+			isa = PBXGroup;
+			children = (
+				0FFD3F5D20A4591B003E0FE7 /* HBK_Charts */,
+				0FFD3F5C20A4591B003E0FE7 /* Products */,
+				810DDA9D0AD88754C882937F /* Pods */,
+				F13555E76874B430496FAD67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FFD3F5C20A4591B003E0FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD3F5B20A4591B003E0FE7 /* HBK_Charts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FFD3F5D20A4591B003E0FE7 /* HBK_Charts */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD3F5E20A4591B003E0FE7 /* AppDelegate.h */,
+				0FFD3F5F20A4591B003E0FE7 /* AppDelegate.m */,
+				0FFD3F7E20A46172003E0FE7 /* RootViewController.h */,
+				0FFD3F7F20A46172003E0FE7 /* RootViewController.m */,
+				0FFD3F7920A45F2B003E0FE7 /* HBK_BarChartsViewController.h */,
+				0FFD3F7A20A45F2B003E0FE7 /* HBK_BarChartsViewController.m */,
+				0FFD3F7C20A45F84003E0FE7 /* DefineHeader.h */,
+				0FFD3F7D20A45F84003E0FE7 /* PrefixHeader.pch */,
+				0FFD3F6420A4591B003E0FE7 /* Main.storyboard */,
+				0FFD3F6720A4591D003E0FE7 /* Assets.xcassets */,
+				0FFD3F6920A4591D003E0FE7 /* LaunchScreen.storyboard */,
+				0FFD3F6C20A4591D003E0FE7 /* Info.plist */,
+				0FFD3F6D20A4591D003E0FE7 /* main.m */,
+			);
+			path = HBK_Charts;
+			sourceTree = "<group>";
+		};
+		810DDA9D0AD88754C882937F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				755C7B1903143B0F2C92A74D /* Pods-HBK_Charts.debug.xcconfig */,
+				68C96A90E26351D2401FB405 /* Pods-HBK_Charts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F13555E76874B430496FAD67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5599882BED634ACEA020E63 /* Pods_HBK_Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FFD3F5A20A4591B003E0FE7 /* HBK_Charts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FFD3F7120A4591D003E0FE7 /* Build configuration list for PBXNativeTarget "HBK_Charts" */;
+			buildPhases = (
+				847BA510837E0ECBF5043427 /* [CP] Check Pods Manifest.lock */,
+				0FFD3F5720A4591B003E0FE7 /* Sources */,
+				0FFD3F5820A4591B003E0FE7 /* Frameworks */,
+				0FFD3F5920A4591B003E0FE7 /* Resources */,
+				FF42ED59C7AF67E36F65A113 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBK_Charts;
+			productName = HBK_Charts;
+			productReference = 0FFD3F5B20A4591B003E0FE7 /* HBK_Charts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FFD3F5320A4591B003E0FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = KK;
+				TargetAttributes = {
+					0FFD3F5A20A4591B003E0FE7 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 0FFD3F5620A4591B003E0FE7 /* Build configuration list for PBXProject "HBK_Charts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FFD3F5220A4591B003E0FE7;
+			productRefGroup = 0FFD3F5C20A4591B003E0FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FFD3F5A20A4591B003E0FE7 /* HBK_Charts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FFD3F5920A4591B003E0FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFD3F6B20A4591D003E0FE7 /* LaunchScreen.storyboard in Resources */,
+				0FFD3F6820A4591D003E0FE7 /* Assets.xcassets in Resources */,
+				0FFD3F6620A4591B003E0FE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		847BA510837E0ECBF5043427 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBK_Charts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF42ED59C7AF67E36F65A113 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HBK_Charts/Pods-HBK_Charts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HBK_Charts/Pods-HBK_Charts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FFD3F5720A4591B003E0FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFD3F7B20A45F2B003E0FE7 /* HBK_BarChartsViewController.m in Sources */,
+				0FFD3F6E20A4591D003E0FE7 /* main.m in Sources */,
+				0FFD3F8020A46172003E0FE7 /* RootViewController.m in Sources */,
+				0FFD3F6020A4591B003E0FE7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FFD3F6420A4591B003E0FE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFD3F6520A4591B003E0FE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FFD3F6920A4591D003E0FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFD3F6A20A4591D003E0FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FFD3F6F20A4591D003E0FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FFD3F7020A4591D003E0FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FFD3F7220A4591D003E0FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755C7B1903143B0F2C92A74D /* Pods-HBK_Charts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8738S7T98;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HBK_Charts/PrefixHeader.pch";
+				INFOPLIST_FILE = HBK_Charts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbk.www.HBK-Charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HBK_Charts/HBK_Charts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FFD3F7320A4591D003E0FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C96A90E26351D2401FB405 /* Pods-HBK_Charts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8738S7T98;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HBK_Charts/PrefixHeader.pch";
+				INFOPLIST_FILE = HBK_Charts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbk.www.HBK-Charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HBK_Charts/HBK_Charts-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FFD3F5620A4591B003E0FE7 /* Build configuration list for PBXProject "HBK_Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFD3F6F20A4591D003E0FE7 /* Debug */,
+				0FFD3F7020A4591D003E0FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FFD3F7120A4591D003E0FE7 /* Build configuration list for PBXNativeTarget "HBK_Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFD3F7220A4591D003E0FE7 /* Debug */,
+				0FFD3F7320A4591D003E0FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FFD3F5320A4591B003E0FE7 /* Project object */;
+}
